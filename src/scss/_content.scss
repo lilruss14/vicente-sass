@@ -1,0 +1,30 @@
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  > * {
+    padding-left: 30px;
+  }
+
+  p {
+    width: 55%;
+    min-width: 550px;
+    font-size: 15pt;
+    line-height: 150%;
+  }
+
+  ul, li, ol {
+    font-size: 15pt;
+    line-height: 150%;
+    list-style-type: disc;
+    font-style:oblique;
+  }
+
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+}
